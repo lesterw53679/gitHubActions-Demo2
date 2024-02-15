@@ -2,6 +2,7 @@ from flask import Flask
 
 app = Flask(__name__)
 # another comment
+# adding another comment to main
 # add a comment
 @app.route("/")
 def hello_world():
